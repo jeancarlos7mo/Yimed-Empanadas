@@ -1,8 +1,8 @@
 /*propiedades para cuerpo de index*/
 body{
-  background: #FDC830;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #FDC830;
+background: linear-gradient(to right, #F37335, #FDC830); 
+justify-content: center;
 }
 
 /*propiedades para H1*/
@@ -10,35 +10,54 @@ h1{
   text-align: center;
 }
 
+/*propiedades para p3*/
+h3{ 
+  text-align: center; 
+  padding: 0px;
+  margin: auto;
+  color: white;
+}
+
 /*propiedades para barra navegacion*/
-ul{
-  display: flex;
-  list-style-type:;
-  padding: 10px;
-  margin: 5px;
+a{
+  text-decoration:none;
+  color: black;
 }
 
 /*propiedades boton ordenar*/
 .ordenar{
   width: 5em;
   height: 3ex;
-  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  background-image: linear-gradient(135deg, #e73a0f 40%, #fc894d);
   border: none;
   border-radius: 5px;
   font-weight: bold;
   color: white;
   cursor: pointer;
-}
-
-.ordenar {
   box-shadow: 2px 2px 5px black;
 }
 
-ul li { 
-  margin-right: 20px;
+/*propiedades para h2*/
+h2{
+  text-align: center;
 }
 
-.p1{ 
-  text-align: center; 
-  padding: 10px;
+
+/*propiedades para para footer */
+
+ul{ 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
+
+.footer{
+  margin-bottom: 10PX;
+  text-decoration: none;
+}
+
+
+.p2{
+text-align: center;
+}
+

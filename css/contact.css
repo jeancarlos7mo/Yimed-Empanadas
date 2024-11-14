@@ -1,0 +1,121 @@
+/*propiedades para cuerpo de index - colores*/
+body{
+  background: #43cea2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+/*propiedades para configuracion del cuerpo del index*/
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+/*propiedades para H1*/
+h1{
+  text-align: center;
+  margin-top: 0px;
+}
+
+/*propiedades para p3*/
+h6{ 
+  text-align: center; 
+  padding: 0px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+
+/*propiedades para barra navegacion*/
+a{
+  text-decoration:none;
+  color: black;
+  display: flex;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+a li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none; /* Quita los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Hace que los elementos se alineen en una fila */
+  justify-content: center; /* Centra los elementos en la barra */
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: rgb(0, 0, 0); /* Color del texto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  padding: 8px 16px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #0572ee; /* Color de fondo al pasar el ratón */
+  border-radius: 10px; /* Bordes redondeados al pasar el ratón */
+}
+
+/*propiedades boton ordenar*/
+.ordenar{
+  border: none;
+  border-radius: 0.5em;
+  color: black;
+  cursor: pointer;
+  background-color: #a4e40f;
+  right: 10px;
+  top: 20px;
+}
+
+/*propiedades para h2*/
+h2{
+  text-align: center;
+}
+
+/*propiedades para para footer */
+ul{ 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.footer{
+  margin-bottom: 10PX;
+  display: flex;
+  gap: 40PX;
+  padding: 50PX;
+}
+
+
+.footer li{ 
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+
+.p2{
+  text-align: center;
+  padding: 40px;
+}
+

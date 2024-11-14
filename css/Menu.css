@@ -1,63 +1,120 @@
-/*propiedades para cuerpo de index*/
+/*propiedades para cuerpo de index - colores*/
 body{
-    background: #00d2ff; 
-    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  
-    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: #D38312;  
+  background: -webkit-linear-gradient(to right, #A83279, #D38312); 
+  background: linear-gradient(to right, #A83279, #D38312); 
+}
 
-  }
-  
-  /*propiedades para H1*/
-  h1{
-    text-align: center;
-  }
-  
-  /*propiedades para p3*/
-  h3{ 
-    text-align: center; 
-    padding: 0px;
-    margin: auto;
-    color: white;
-  }
-  
-  /*propiedades para barra navegacion*/
-  a{
-    text-decoration:none;
-    color: black;
-  }
-  
-  /*propiedades boton ordenar*/
-  .ordenar{
-    width: 5em;
-    height: 3ex;
-    background-image: linear-gradient(135deg, #e73a0f 40%, #fc894d);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px black;
-  }
-  
-  /*propiedades para h2*/
-  h2{
-    text-align: center;
-  }
-  
-  
-  /*propiedades para para footer */
-  
-  ul{ 
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer li{
-    margin-bottom: 10PX;
-  
-  }
-  
-  
-  .p2{
+/*propiedades para configuracion del cuerpo del index*/
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+/*propiedades para H1*/
+h1{
   text-align: center;
-  }
+  margin-top: 0px;
+}
+
+/*propiedades para p3*/
+h6{ 
+  text-align: center; 
+  padding: 0px;
+  margin: auto;
+  color: rgb(255, 255, 255);
+}
+
+/*propiedades para barra navegacion*/
+a{
+  text-decoration:none;
+  color: black;
+  display: flex;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+a li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none; /* Quita los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Hace que los elementos se alineen en una fila */
+  justify-content: center; /* Centra los elementos en la barra */
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: rgb(0, 0, 0); /* Color del texto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  padding: 8px 16px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #ee8105; /* Color de fondo al pasar el ratón */
+  border-radius: 10px; /* Bordes redondeados al pasar el ratón */
+}
+
+/*propiedades boton ordenar*/
+.ordenar{
+  border: none;
+  border-radius: 0.5em;
+  color: black;
+  cursor: pointer;
+  background-color: #a4e40f;
+  right: 10px;
+  top: 20px;
+}
+
+/*propiedades para h2*/
+h2{
+  text-align: center;
+}
+
+/*propiedades para para footer */
+ul{ 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.footer{
+  margin-bottom: 10PX;
+  display: flex;
+  gap: 40PX;
+  padding: 50PX;
+}
+
+
+.footer li{ 
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+
+.p2{
+  text-align: center;
+  padding: 40px;
+}
+
